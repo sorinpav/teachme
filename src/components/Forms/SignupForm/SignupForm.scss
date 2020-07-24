@@ -1,0 +1,25 @@
+.center-container {
+  height: 600px;
+  position: relative;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  max-width: 800px;
+  width: 800px;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.left-side {
+  background-color: #1e1e64;
+  color: white;
+}
+
+.right-side {
+  background-color: #eae6f6;
+}
