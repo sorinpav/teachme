@@ -6,6 +6,9 @@ const SignupForm = () => {
     <div className='SignupForm'>
       <div className='grid-container'>
         <div className='left-side'>
+          <div className='company-logo'>
+            <span>Company Logo Placeholder</span>
+          </div>
           <div className='sign-up-intro'>
             <span className='sign-up-to-teach-or-learn'>
               Sign up to teach or learn a new skill
