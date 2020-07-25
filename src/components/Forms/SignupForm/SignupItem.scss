@@ -1,0 +1,36 @@
+.signup-item {
+  padding: 1rem 1rem 1rem 0;
+}
+
+.signup-item:hover {
+  transform: scale(1.02);
+  transition-duration: 0.3s;
+  cursor: pointer;
+}
+
+.container {
+  background: white;
+  padding: 2rem;
+  border-radius: 1rem;
+  -webkit-box-shadow: 4px 4px 12px rgba(209, 205, 229, 1);
+  -moz-box-shadow: 4px 4px 12px rgba(209, 205, 229, 1);
+  box-shadow: 4px 4px 12px rgba(209, 205, 229, 1);
+  white-space: nowrap;
+}
+.logo {
+  background-color: #f6f5fc;
+  border-radius: 1rem;
+  padding: 1rem;
+  display: inline-block;
+  vertical-align: middle;
+}
+.text {
+  display: inline;
+  font-size: 2rem;
+  margin-left: 2rem;
+}
+
+.logo > img {
+  width: 3rem;
+  height: 3rem;
+}
