@@ -5,21 +5,71 @@
 .grid-container {
   display: grid;
   grid-template-columns: 1fr 2fr;
-  max-width: 800px;
-  width: 800px;
-  margin: 0;
+  max-width: 1024px;
+  width: 1024px;
+  margin-top: 50px;
   position: absolute;
   top: 50%;
   left: 50%;
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
+
+  -webkit-box-shadow: 4px 4px 12px rgba(209, 205, 229, 1);
+  -moz-box-shadow: 4px 4px 12px rgba(209, 205, 229, 1);
+  box-shadow: 4px 4px 12px rgba(209, 205, 229, 1);
+  border-radius: 20px;
 }
 
 .left-side {
-  background-color: #1e1e64;
+  background: linear-gradient(#161659, #22226c);
   color: white;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  height: 600px;
 }
 
+.sign-up-intro {
+  font-family: 'Roboto', sans-serif;
+  margin-top: 50%;
+  margin: 50% 2rem 0 2rem;
+}
+
+.sign-up-to-teach-or-learn {
+  font-size: 3rem;
+}
+
+.make-money-online {
+  font-size: 1.5rem;
+  line-height: 1.7;
+  text-align: left;
+  margin-top: 10rem;
+  display: block;
+}
+.copyright {
+  margin-top: 18.5rem;
+  color: #e8e7f2;
+  display: block;
+  text-align: center;
+  font-size: 1rem;
+}
 .right-side {
-  background-color: #eae6f6;
+  background-color: #f6f5fc;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+.sign-up-form {
+  margin: 10rem;
+  color: #151542;
+
+  font-family: 'Roboto', sans-serif;
+}
+
+.get-started-text {
+  font-size: 3.5rem;
+}
+
+.already-registered {
+  font-size: 1.5rem;
+  display: block;
+  margin-top: 25rem;
 }
