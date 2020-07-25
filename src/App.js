@@ -1,9 +1,9 @@
 import React from 'react';
-
+import SignupPage from './pages/SignupPage/SignupPage';
 const App = () => {
   return (
     <div>
-      <h1>Hello from React</h1>
+      <SignupPage />
     </div>
   );
 };
