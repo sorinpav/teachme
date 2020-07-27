@@ -1,6 +1,10 @@
 import React from 'react';
 import SignupItem from './SignupItem';
 import './SignupList.scss';
+
+/*
+This is the full list of Signup Items from SignupItem.js. Represents all the possible sign in / sign up methods. 
+*/
 const SignupList = () => {
   return (
     <div className='signup-list'>
