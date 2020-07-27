@@ -1,6 +1,14 @@
 import React from 'react';
 import './SignupForm.scss';
 import SignupList from './SignupList';
+/*
+This is the whole sign up form, it has 2 sides, .left-side and .right-side. 
+Left side contains some marketing text and the logo, right side contains a form that is 
+animated and lets the user sign in via Twitter / Facebook / Email and password. 
+It currently has no input validation. 
+TODO: Add input validation
+3 steps mentioned on issue 10
+*/
 const SignupForm = () => {
   return (
     <div className='SignupForm'>
