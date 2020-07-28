@@ -1,6 +1,6 @@
 # teachme
 
-###### Currently this is the main project I'm working on
+###### Currently this is the main project I'm working on. WIP
 
 A platform that will facilitate meeting in person and teaching other people.
 
@@ -10,14 +10,9 @@ Tech stack used:
 
 - React
 - Firebase
-- More to be confirmed.
+- Redux (will get added)
 
-Project idea in detail:
+Design inspiration taken from dribbble.com.
+I want this to be a PWA, so working towards that. I update my progress through issues on this repo.
 
-TeachME idea ⇒ Find instructors in your area and meetup ⇒ Instructors get to organise meetups with multiple people and teach together ⇒ split on cities / regions
-
-⇒ Platform gives people discounts on venues to book to meetup ⇒ venues get to advertise on platform ⇒ this is part of the business model
-
-Add online meetup alternative on platform, for cases of Covid and global pandemic.
-
-### to be updated with more features.
+### To be updated with more features.
