@@ -1,5 +1,7 @@
 # teachme
 
+###### Currently this is the main project I'm working on
+
 A platform that will facilitate meeting in person and teaching other people.
 
 Currently it's WIP.
