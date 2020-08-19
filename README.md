@@ -1,7 +1,5 @@
 # teachMe
 
-###### Currently this is the main project I'm working on. WIP
-
 WIP => A platform that will facilitate meeting in person and teaching other people.
 
 #### Star repo for updates.
